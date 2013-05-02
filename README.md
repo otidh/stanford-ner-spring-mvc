@@ -21,7 +21,7 @@ The application uses MVC Java-based configuration. See /web/WEB-INF/web.xml.
     Put it as parameter for the url:
     `http://localhost:8080/stanford-ner-spring-mvc?s=The%20BBC's%20Mark%20Lowen%20in%20Athens%20says%20there%20have%20been%20far%20fewer%20strikes%20and%20protests%20this%20year,%20and%20there%20is%20a%20feeling%20the%20civil%20unrest%20is%20beginning%20to%20die%20down.` 
     
-    Then the page will be returned the output in json format, like this: 
+    Then the page will return the output in json format, like this: 
     `{"organization":["BBC"],"time":[],"person":["Mark Lowen"],"percent":[],"location":["Athens"],"money":[],"date":[]}`
 
 
